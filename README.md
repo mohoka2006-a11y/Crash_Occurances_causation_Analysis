@@ -11,7 +11,7 @@ The project will use SQL and Python to clean, prepare, and analyze the data, the
 The dataset is preliminary and may be updated when crash reports are amended. Findings will be interpreted as patterns in the available police-reported data, not proof that a particular factor caused a collision.
 
 ## Dataset
-- Name: Motor Vehicle Collisions - Crashes
+- Name: NYC Motor Vehicle Collisions - Crashes
 - Source: NYC Open Data / New York City Police Department (NYPD)
 - Dataset link: [Motor Vehicle Collisions - Crashes](https://catalog.data.gov/dataset/motor-vehicle-collisions-crashes)
 
