@@ -13,7 +13,7 @@ The dataset is preliminary and may be updated when crash reports are amended. Fi
 ## Dataset
 - Name: Motor Vehicle Collisions - Crashes
 - Source: NYC Open Data / New York City Police Department (NYPD)
-- Dataset link: [Motor Vehicle Collisions - Crashes]([https://data.cityofnewyork.us/Public-Safety/Motor-Vehicle-Collisions-Crashes/h9gi-nx95/about_data](https://data.cityofnewyork.us/Public-Safety/Motor-Vehicle-Collisions-Crashes/h9gi-nx95/about_data))
+- Dataset link: [Motor Vehicle Collisions - Crashes](https://data.cityofnewyork.us/Public-Safety/Motor-Vehicle-Collisions-Crashes/h9gi-nx95/about_data)
 
 ## Team Members
 
