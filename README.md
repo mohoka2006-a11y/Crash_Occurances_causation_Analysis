@@ -1,16 +1,19 @@
-# Media Effect on Mental Health
+# NYC Motor Vehicle Collisions Analysis
 
 ## Project Overview
 
-This project investigates the relationship between social media use and mental health.
+This project analyzes police-reported motor vehicle collisions in New York City using the NYC Open Data Motor Vehicle Collisions - Crashes dataset.
 
-The analysis will examine whether frequent or excessive social media use is associated with mental health indicators such as stress, anxiety, sleep patterns, emotional well-being, and overall mental well-being.
+Each row represents a collision event. The dataset includes information such as crash date and time, borough and street location, geographic coordinates, contributing factors, vehicle types, and the number of people injured or killed.
 
-The project will use real-world survey data and apply SQL, Python, Power BI, and Tableau to clean, analyze, visualize, and communicate the findings.
+The project will use SQL and Python to clean, prepare, and analyze the data, then use Power BI and Tableau to create visualizations and interactive dashboards. The goal is to identify patterns in when and where collisions occur, explore reported contributing factors, and understand injury and fatality trends.
 
-The analysis will also examine differences across demographic and social groups such as age, gender, and other relevant characteristics available in the selected dataset.
+The dataset is preliminary and may be updated when crash reports are amended. Findings will be interpreted as patterns in the available police-reported data, not proof that a particular factor caused a collision.
 
-The final outcome will provide data-driven insights and recommendations related to social media habits and mental health.
+## Dataset
+- Name: Motor Vehicle Collisions - Crashes
+- Source: NYC Open Data / New York City Police Department (NYPD)
+- Dataset link: Motor Vehicle Collisions - Crashes
 
 ## Team Members
 
@@ -26,23 +29,27 @@ Amal Mahmoud
 
 ## Project Objectives
 
-1. Analyze the relationship between social media use and mental health.
-2. Identify patterns between social media usage and indicators such as stress, anxiety, sleep, and emotional well-being.
-3. Examine whether frequent or excessive social media use is associated with changes in mental well-being.
-4. Compare mental health patterns across different demographic and social groups.
-5. Develop data-driven recommendations based on the findings.
+1. Identify trends in the number of reported collisions over time.
+2. Compare collision patterns across NYC boroughs and locations.
+3. Explore collision frequency by time of day, day of the week, and month, where the data supports these comparisons.
+4. Analyze reported contributing factors and vehicle types associated with collisions.
+5. Examine the number of people injured or killed, including pedestrians, cyclists, and motorists where those fields are available.
+6. Clean and validate the data, document missing or inconsistent values, and prepare reliable visualizations.
+7. Present evidence-based findings that may help inform traffic-safety discussions.
 
 ## Project Scope
 
-The project will focus on analyzing the relationship between social media usage and mental health using real-world survey data.
+The project will focus on police-reported motor vehicle collisions in New York City contained in the selected dataset.
+The analysis may include:
 
-The analysis will cover social media usage patterns, time spent on social media, frequency of use, stress, anxiety, sleep patterns, emotional well-being, and other mental health indicators where available in the selected dataset.
-
-Demographic and social variables will be used to identify differences and patterns between groups.
-
-The project will include data cleaning and preparation using Python, data analysis using SQL and Python, and interactive data visualization using Power BI and Tableau.
-
-The project will focus on identifying relationships and patterns in the data. It will not claim that social media directly causes changes in mental health unless the selected research design supports a causal conclusion.
+- Time analysis: collisions by date, month, day of the week, and time of day.
+- Location analysis: collisions by borough, ZIP code, street, and available geographic coordinates.
+- Safety outcomes: counts of injured and killed people, including pedestrians, cyclists, and motorists where the relevant fields are available.
+- Contributing factors: patterns in the factors reported for vehicles involved in collisions.
+- Vehicle analysis: comparisons by reported vehicle type where the data is available and sufficiently consistent.
+- Data quality: missing values, duplicate collision identifiers, inconsistent category labels, invalid coordinates, and data-type issues.
+Data preparation will include checking the unique collision identifier, standardizing dates and times, reviewing missing values, validating numeric fields, and handling inconsistent text categories. Missing values will not automatically be treated as zero; the approach will depend on the meaning of each field.
+The project will use SQL and Python for data cleaning and analysis, and Power BI and Tableau for interactive dashboards. The analysis will describe trends and associations in the dataset without claiming that the observed contributing factors necessarily prove causation. Because the dataset contains police-reported collisions, it should not be assumed to represent every traffic incident.
 
 ## Tools & Technologies
 
