@@ -13,7 +13,7 @@ The dataset is preliminary and may be updated when crash reports are amended. Fi
 ## Dataset
 - Name: Motor Vehicle Collisions - Crashes
 - Source: NYC Open Data / New York City Police Department (NYPD)
-- Dataset link: Motor Vehicle Collisions - Crashes
+- Dataset link: [Motor Vehicle Collisions - Crashes](https://data.cityofnewyork.us/Public-Safety/Motor-Vehicle-Collisions-Crashes/h9gi-nx95/about_data)
 
 ## Team Members
 
@@ -48,7 +48,9 @@ The analysis may include:
 - Contributing factors: patterns in the factors reported for vehicles involved in collisions.
 - Vehicle analysis: comparisons by reported vehicle type where the data is available and sufficiently consistent.
 - Data quality: missing values, duplicate collision identifiers, inconsistent category labels, invalid coordinates, and data-type issues.
+
 Data preparation will include checking the unique collision identifier, standardizing dates and times, reviewing missing values, validating numeric fields, and handling inconsistent text categories. Missing values will not automatically be treated as zero; the approach will depend on the meaning of each field.
+
 The project will use SQL and Python for data cleaning and analysis, and Power BI and Tableau for interactive dashboards. The analysis will describe trends and associations in the dataset without claiming that the observed contributing factors necessarily prove causation. Because the dataset contains police-reported collisions, it should not be assumed to represent every traffic incident.
 
 ## Tools & Technologies
