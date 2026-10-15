@@ -1,4 +1,4 @@
-# Crash Occurances & Causation of Traffic Accident
+# Crash Occurances & Causation Of Traffic Accidents
 
 ## Project Overview
 
