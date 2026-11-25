@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This project analyzes police-reported motor vehicle collisions in New York City using the NYC Open Data Motor Vehicle Collisions - Crashes dataset.
+This project analyzes police reported motor vehicle collisions in New York City using the NYC Open Data Motor Vehicle Collisions - Crashes dataset.
 
 Each row represents a collision event. The dataset includes information such as crash date and time, borough and street location, geographic coordinates, contributing factors, vehicle types, and the number of people injured or killed.
 
