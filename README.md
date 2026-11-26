@@ -124,7 +124,8 @@ The raw table `dbo.nyc_crashes_1m` is **never modified**; all cleaning lives in 
 
 ## Tableau
 
-📁 `tableau/Final.twbx` (~73 MB: use Git LFS or a GitHub Release)
+📁 `tableau/NYC_Crashes.twbx` (~73 MB: used GitHub Release)
+📥 [Download the Tableau workbook](https://github.com/mohoka2006-a11y/Crash_Occurances_causation_Analysis/releases/tag/V1.0)
 
 ### Data model
 Five tables connected with Tableau *relationships* (each measure keeps its own grain):
