@@ -124,6 +124,8 @@ The raw table `dbo.nyc_crashes_1m` is **never modified**; all cleaning lives in 
 `crashes` · `dates` · `locations` · `crash_vehicles` (key: `collision_id` + `vehicle_sequence`) · `contributing_factors`.
 **Grain rule:** count `DISTINCT collision_id` for collision KPIs; never sum collision-level measures after joining to vehicle rows.
 
+![SQL Schema](SQL/sql_schema.png)
+
 **Run:** create `Crash_Analysis` → import CSV as `dbo.nyc_crashes_1m` → run Sections 1–14 → run Section 15.
 
 ---
