@@ -2,7 +2,7 @@
 
 # 🚦 Crash Occurrences & Causation of Traffic Accidents
 
-### NYC Motor Vehicle Collisions · Data Analytics Case Study
+### NYC Motor Vehicle Collisions · Professional Data Analytics Case Study
 
 **DEPI | Digital Egypt Pioneers Initiative · Data Analysts Track**
 
