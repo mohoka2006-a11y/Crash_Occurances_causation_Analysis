@@ -88,9 +88,9 @@ Descriptive statistics → 10 exploratory questions (severity, hour, weekday, mo
 - Statistically significant tests have **tiny effect sizes** (borough vs injury V ≈ 0.03; weekday vs injury V ≈ 0.005). Daily volume vs injury share: ρ = −0.55.
 
 ### Streamlet Dashboard
-(Python/Streamlet_Dashboards/1.png)
-(Python/Streamlet_Dashboards/2.png)
-(Python/Streamlet_Dashboards/3.png)
+!(Python/Streamlet_Dashboards/1.png)
+!(Python/Streamlet_Dashboards/2.png)
+!(Python/Streamlet_Dashboards/3.png)
 
 ---
 
