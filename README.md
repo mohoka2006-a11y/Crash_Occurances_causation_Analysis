@@ -20,9 +20,8 @@ Noura Ibrahim Labeb • Menna Muhammad Ali • Mariem Reda Ahmed • Amin Mohame
 2. [Dataset](#dataset)
 3. [Python](#python) · [SQL](#sql) · [Tableau](#tableau) · [Power BI](#power-bi)
 4. [Cross-Track Comparison](#cross-track-comparison)
-5. [Known Issues](#known-issues)
-6. [Repository Structure](#repository-structure)
-7. [Project Documentation](#project-documentation) *(full methodology, sections 1–16)*
+5. [Repository Structure](#repository-structure)
+6. [Project Documentation](#project-documentation) *(full methodology, sections 1–16)*
 
 ---
 
