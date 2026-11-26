@@ -169,9 +169,9 @@ Five tables connected with Tableau *relationships* (each measure keeps its own g
 
 
 ## Screenshots
-![Cover](Dashboards_Screenshots/Cover_Page.png)
-![Overview](Dashboards_Screenshots/Overview.png)
-![Trends](Dashboards_Screenshots/Trends.png)
+![Cover](Tableau/Dashboards_Screenshots/Cover_Page.png)
+![Overview](Tableau/Dashboards_Screenshots/Overview.png)
+![Trends](Tableau/Dashboards_Screenshots/Trends.png)
 
 ---
 
