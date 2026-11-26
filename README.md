@@ -344,14 +344,4 @@ NYC Open Data — Motor Vehicle Collisions – Crashes: https://data.cityofnewyo
 
 Dataset metadata identifies NYPD as the provider, defines each crash-table row as a collision event, and notes that the data is preliminary and subject to amendment.
 
-### Items to Confirm Before Final Submission
-
-Confirm the exact current extract date range, extraction timestamp, and row counts. The team described the refreshed database as 2022-to-present; earlier analysis used a 1,000,000-crash snapshot.
-
-Recalculate historical snapshot KPIs against the latest database. Confirm exact SQL table/field names in the final schema.
-
-Document precisely which fields had Unknown values excluded and whether exclusions were physical deletes or analytical filters. Preserve the final dashboard screenshots and final findings.
-
----
-
 <sub>NYC Motor Vehicle Collisions • Data Analytics Case Study · DEPI | Digital Egypt Pioneers Initiative</sub>
