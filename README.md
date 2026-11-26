@@ -32,12 +32,12 @@ This project analyzes **1,000,000 police-reported motor vehicle collisions in Ne
 
 The work is split into **four independent tracks**. Each team member took the *same* raw data through the *full* lifecycle — cleaning → analysis → visualization → insights — in a different tool, so the results can be cross-checked.
 
-| Track | Tool | Owner | Status |
+| Track | Tool | Status |
 |---|---|---|---|
-| [Python](#python) | Pandas · GeoPandas · SciPy · Statsmodels | _add name_ | ✅ Complete |
-| [SQL](#sql) | SQL Server (T-SQL) | _add name_ | ✅ Complete |
-| [Tableau](#tableau) | Tableau, multi-page dashboard | _add name_ | ✅ Complete |
-| [Power BI](#power-bi) | Power BI | _add name_ | 🚧 In progress |
+| [Python](#python) | Pandas · GeoPandas · SciPy · Statsmodels | ✅ Complete |
+| [SQL](#sql) | SQL Server (T-SQL) | ✅ Complete |
+| [Tableau](#tableau) | Tableau, multi-page dashboard  ✅ Complete |
+| [Power BI](#power-bi) | Power BI  | 🚧 In progress |
 
 > The analysis finds patterns and associations. It does **not** prove legal responsibility or causation.
 
@@ -172,35 +172,6 @@ Five tables connected with Tableau *relationships* (each measure keeps its own g
 ## Power BI
 
 🚧 **In progress.** Plan: import `dbo.vw_nyc_crashes_clean`, build the model and DAX measures (distinct collisions, injuries, fatalities), and publish a report whose KPIs match the other tracks. Screenshots and insights will be added when complete.
-
----
-
-## Cross-Track Comparison
-
-All tracks start from the same extract, so headline numbers should match.
-
-| KPI | Python | SQL | Tableau | Power BI |
-|---|---|---|---|---|
-| Total collisions | 1,000,000 | _fill_ | 1,000,000 | _fill_ |
-| Persons injured | 442,628 | _fill_ | 442,628 | _fill_ |
-| Persons killed | 2,200 ⚠️ | _fill_ | 2,035 | _fill_ |
-| Collisions without borough | 55,487 (after recovery) | _fill_ | 294,770 (excluded) | _fill_ |
-
-⚠️ Python's monthly fatality totals sum to 2,200, versus 2,035 in Tableau and the historical snapshot (e.g., October: 231 vs 210). Injuries match exactly. Unknown boroughs are handled differently on purpose: Python recovers them from coordinates, SQL labels them `UNKNOWN / UNASSIGNED`, Tableau excludes them from borough views.
-
----
-
-## Known Issues
-
-| # | Where | Issue | Fix |
-|---|---|---|---|
-| 1 | Python | Persons-killed total (≈2,200) differs from Tableau/snapshot (2,035) | Check how the column is loaded/filtered in each track |
-| 2 | Python | Borough casing is mixed after spatial join (`Queens` vs `QUEENS`), splitting categories and affecting the borough comparison and Chi-Square test | Apply `.str.upper()` after the join, re-run |
-| 3 | Python | Section 4.3.4 still has an unfilled placeholder for the weekday Chi-Square result | Insert χ² = 25.856, df = 6, V ≈ 0.005 |
-| 4 | Python | Navigation lists a non-existent section "08" and omits "07" | Fix links |
-| 5 | SQL | Header describes a five-table ETL, but the script contains only the cleaned view | Add the ETL or update the header |
-| 6 | All | 2019 has ~2× the collisions of neighboring years | Verify extract coverage before reading trends |
-| 7 | Docs | "2022-to-present" wording contradicts the 2018–2026 extract | Update the final presentation |
 
 ---
 
