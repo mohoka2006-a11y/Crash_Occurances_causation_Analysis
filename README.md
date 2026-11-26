@@ -6,11 +6,6 @@
 
 **DEPI | Digital Egypt Pioneers Initiative · Data Analysts Track**
 
-![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
-![SQL Server](https://img.shields.io/badge/SQL%20Server-CC2927?logo=microsoftsqlserver&logoColor=white)
-![Tableau](https://img.shields.io/badge/Tableau-E97627?logo=tableau&logoColor=white)
-![Power BI](https://img.shields.io/badge/Power%20BI-In%20Progress-F2C811?logo=powerbi&logoColor=black)
-
 **Instructor:** Amal Mahmoud
 
 Noura Ibrahim Labeb • Menna Muhammad Ali • Mariem Reda Ahmed • Amin Mohamed Amin • Mohamed Ahmed Abdel Fattah
