@@ -36,7 +36,7 @@ The work is split into **four independent tracks**. Each team member took the *s
 |---|---|---|---|
 | [Python](#python) | Pandas · GeoPandas · SciPy · Statsmodels | ✅ Complete |
 | [SQL](#sql) | SQL Server (T-SQL) | ✅ Complete |
-| [Tableau](#tableau) | Tableau, multi-page dashboard  ✅ Complete |
+| [Tableau](#tableau) | Tableau | multi-page dashboard | ✅ Complete |
 | [Power BI](#power-bi) | Power BI  | 🚧 In progress |
 
 > The analysis finds patterns and associations. It does **not** prove legal responsibility or causation.
