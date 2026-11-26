@@ -33,11 +33,11 @@ This project analyzes **1,000,000 police-reported motor vehicle collisions in Ne
 The work is split into **four independent tracks**. Each team member took the *same* raw data through the *full* lifecycle — cleaning → analysis → visualization → insights — in a different tool, so the results can be cross-checked.
 
 | Track | Tool | Status |
-|---|---|---|---|
+|---|---|---|
 | [Python](#python) | Pandas · GeoPandas · SciPy · Statsmodels | ✅ Complete |
 | [SQL](#sql) | SQL Server (T-SQL) | ✅ Complete |
-| [Tableau](#tableau) | Tableau | multi-page dashboard | ✅ Complete |
-| [Power BI](#power-bi) | Power BI  | 🚧 In progress |
+| [Tableau](#tableau) | Tableau, multi-page dashboard | ✅ Complete |
+| [Power BI](#power-bi) | Power BI | 🚧 In progress |
 
 > The analysis finds patterns and associations. It does **not** prove legal responsibility or causation.
 
