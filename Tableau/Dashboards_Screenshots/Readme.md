@@ -11,8 +11,8 @@ The workbook is hosted in Releases because of its size (~73 MB).
 
 ## Screenshots
 ![Cover_Page](Cover_Page.png)
-![Overview](overview.png)
-![Trends](trends.png)
+![Overview](Overview.png)
+![Trends](Trends.png)
 
 ## Notes
 - Data covers 2018-07-04 → 2026-11-06.
