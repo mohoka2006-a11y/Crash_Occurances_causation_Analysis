@@ -10,9 +10,9 @@ The workbook is hosted in Releases because of its size (~73 MB).
 - **Trends:** monthly trend, injuries/deaths by borough and vehicle type, factors
 
 ## Screenshots
-![Cover_Page](screenshots/Cover_Page.png)
-![Overview](screenshots/overview.png)
-![Trends](screenshots/trends.png)
+![Cover_Page](Dashboards_Screenshots/Cover_Page.png)
+![Overview](Dashboards_Screenshots/overview.png)
+![Trends](Dashboards_Screenshots/trends.png)
 
 ## Notes
 - Data covers 2018-07-04 → 2026-11-06.
