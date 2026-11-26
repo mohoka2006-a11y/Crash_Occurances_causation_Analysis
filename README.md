@@ -167,12 +167,11 @@ Five tables connected with Tableau *relationships* (each measure keeps its own g
 - **Top factor:** *Driver Inattention/Distraction*, 290,811 **vehicle-level records** (not collisions).
 - **Top vehicles:** Sedan 588,461 · SUV/Station Wagon 489,468 · Taxi 52,259 collisions.
 
-### Notes
-- Borough views exclude the **294,770 collisions (29.5%) with no location**, so borough totals sum to 705,230.
-- Only 863,533 of 1,799,870 vehicle records have a mapped contributing factor.
 
-<!-- ![Overview](tableau/screenshots/overview.png) -->
-<!-- ![Trends](tableau/screenshots/trends.png) -->
+## Screenshots
+![Cover](Dashboards_Screenshots/Cover_Page.png)
+![Overview](Dashboards_Screenshots/Overview.png)
+![Trends](Dashboards_Screenshots/Trends.png)
 
 ---
 
