@@ -60,7 +60,7 @@ The work is split into **four independent tracks**. Each team member took the *s
 
 ## Python
 
-📁 `python/NYC_Analysis_2018-2026.ipynb` · Pandas, GeoPandas, SciPy, Statsmodels, Matplotlib
+📁 `Python/NYC Analysis 2018-2026.ipynb` · Pandas, GeoPandas, SciPy, Statsmodels, Matplotlib
 
 ### Cleaning
 | Step | Result |
